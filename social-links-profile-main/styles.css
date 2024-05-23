@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* Variables */
+
+:root {
+    --negro:var(#212121)
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-family: "Poppins";
+}
+
+
+body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #181818;
+    color: beige;
+    margin: 47px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    text-align: space-between;
+    flex-direction: column;
+    background-color: #212121;
+    border-radius: 10px;
+    height: 600px;
+    width: 350px;
+
+
+}
+
+.nombre {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 10px;
+}
+
+h1 {
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.foto-de-perfil {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+    height: 20vh;
+    width: fit-content;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.ubicacion {
+    display: flex;
+    justify-content: center;
+    color: #91ff5a;
+    font-size: 12px;
+    font-weight: 450;
+    margin: 5px;
+}
+
+.descrip {
+    padding: 8px;
+    font-size: small;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: italic;
+    color: #b0b0b0;
+}
+.section-links {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.lista-links {
+    display: flex;
+    text-align: start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    /* list-style: none; */
+    margin: 20px;
+}
+
+.caja-link {
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+    font-weight: 500;
+    padding: 10px 100px;
+    border-radius: 5px;
+    color: #181818;
+    background-color:#77ff33;
+}
+ .link {
+    color: #181818;
+    text-decoration: none;
+    font-family: "Roboto Mono";
+ }
+
+ .caja-link:hover {
+    background-color: beige;
+ }
+
+ .contacto {
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+    font-weight: 400;
+ }
