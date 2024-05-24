@@ -61,7 +61,7 @@ h1 {
     align-self: center;
 
     height: 20vh;
-    width: fit-content;
+    width: auto;
     border-radius: 100%;
     padding: 20px;
 }
